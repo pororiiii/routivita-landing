@@ -31,7 +31,8 @@
   }
   .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
   .langnav { text-align: right; padding-top: 18px; font-size: 13px; }
-  .langnav a { color: var(--sage-label); text-decoration: none; }
+  .langnav a { color: var(--sage-label); text-decoration: none; margin-left: 10px; }
+  .langnav span { color: var(--sage-deep); margin-left: 10px; }
   header { padding: 54px 0 40px; text-align: center; }
   .eyebrow {
     font-family: ui-monospace, "JetBrains Mono", monospace;
@@ -86,7 +87,14 @@
 </head>
 <body>
   <div class="wrap">
-    <nav class="langnav"><a href="./en/">English ↗</a></nav>
+    <nav class="langnav">
+      <span>한국어</span>
+      <a href="./en/">English</a>
+      <a href="./ja/">日本語</a>
+      <a href="./es/">Español</a>
+      <a href="./fr/">Français</a>
+      <a href="./de/">Deutsch</a>
+    </nav>
     <header>
       <div class="eyebrow">Sourced Wellness · NIH / FDA referenced</div>
       <h1>RoutiVita</h1>
